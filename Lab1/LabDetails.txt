@@ -14,6 +14,8 @@ MyTwitAgent.sources.Twitter.consumerSecret = <Copy consumer secret value from Tw
 MyTwitAgent.sources.Twitter.accessToken = <Copy access token value from Twitter App>
 MyTwitAgent.sources.Twitter.accessTokenSecret = <Copy access token secret value from Twitter App>
 
+The Flume environment is already configured for you. You would just need to edit flume.conf file and update it with your twitter credentials and proceed with below programs.
+
 Refer below links for more details:
 
 https://www.guru99.com/create-your-first-flume-program.html
