@@ -1,3 +1,21 @@
 Twitter Data Handling
 ------------------------
-Copy the content of file acadgild.conf in flume.conf configuration file.
+Copy the content of file acadgild.conf in flume.conf configuration file. Clone the below file in your environment:
+https://github.com/srivastavanidhi8/Flume_Lab/blob/master/Lab1/acadgild.conf
+
+Create a twitter app by going to below link:
+
+Click the  ‘create new app’ button. 
+https://apps.twitter.com/app
+
+
+MyTwitAgent.sources.Twitter.consumerKey = <Copy consumer key value from Twitter App>
+MyTwitAgent.sources.Twitter.consumerSecret = <Copy consumer secret value from Twitter App>
+MyTwitAgent.sources.Twitter.accessToken = <Copy access token value from Twitter App>
+MyTwitAgent.sources.Twitter.accessTokenSecret = <Copy access token secret value from Twitter App>
+
+Refer below links for more details:
+
+https://www.guru99.com/create-your-first-flume-program.html
+
+https://acadgild.com/blog/streaming-twitter-data-using-flume
